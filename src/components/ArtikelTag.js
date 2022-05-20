@@ -9,7 +9,7 @@ class ArtikelTag extends React.Component {
     return (
       <React.Fragment>
         {/* ToDo: füge hier drunter Deinen HTML-Code ein */}
-        Füge hier Deinen ArtikelTag-Code<br/>
+        <br/>
       </React.Fragment>
     )
   }
