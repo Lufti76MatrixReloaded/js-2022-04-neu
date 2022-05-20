@@ -10,10 +10,10 @@ class ShoppingList extends React.Component {
 		return (
 			//füge hier deinen HTML-Code ein
 			<div id="container">
-				{/* ToDo: füge hier drunter Deinen HTML-Code ein*/ }
+				{/* ToDo: füge hier drunter Deinen HTML-Code ein */ }
 				
 				<header>
-					<h1>Einkaufsliste</h1>
+					<h1>Einkaufsliste 2</h1>
 					<nav>
 						<input type="text" placeholder="Artikel hinzufügen"/>
 						<button className="material-icons">add_circle</button>
@@ -27,7 +27,18 @@ class ShoppingList extends React.Component {
 							<i className="material-icons">expand_less</i>
 						</h2>
 						<dl>
-							<GruppenTag/>
+							<dt>Obst & Gemüse
+								<i className="material-icons">expand_less</i>
+							</dt>
+							<dd><label><input type="checkbox"/> Brokkoli</label></dd>
+							<dt>Getreideprodukte
+								<i className="material-icons">expand_less</i>
+							</dt>
+							<dd><label><input type="checkbox"/> Reis</label></dd>
+							<dt>Milchprodukte
+								<i className="material-icons">expand_less</i>
+							</dt>
+							<dd><label><input type="checkbox"/> Streukäse</label></dd>
 						</dl>
 					</section>
 					<hr/>
@@ -42,8 +53,7 @@ class ShoppingList extends React.Component {
 							<dd><label><input type="checkbox"/> <s>Tofu</s></label></dd>
 						</dl>
 					</section>
-					
-				</main>
+					</main>
 				<hr/>
 				<footer>
 					<button className="mdc-button mdc-button--raised">
@@ -60,12 +70,8 @@ class ShoppingList extends React.Component {
 					</button>
 				</footer>
 			</div>
-	)
+		)
 	}
-	}
-	
-	export default ShoppingList
-	
-	
-	
-	
+}
+
+export default ShoppingList
